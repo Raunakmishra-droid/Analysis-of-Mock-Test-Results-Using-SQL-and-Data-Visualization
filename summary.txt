@@ -1,0 +1,70 @@
+Project Title: 
+Analysis of Mock Test Results Using SQL and Data Visualization
+
+1. Introduction
+
+This project involves analyzing mock test results of students to determine their performance and generate insights using SQL queries and data visualization techniques. The dataset comprises over 250 student records, including their scores in various sections, test duration, and additional metrics.
+
+2. Dataset Overview
+
+Original Dataset Columns:
+
+Student Name
+Branch
+Roll Number
+Email ID
+Extended Dataset Columns:
+
+Quantitative Score (Max 30)
+Verbal Score (Max 30)
+Logical Score (Max 40)
+Total Score (Sum of Quantitative, Verbal, and Logical Scores)
+Accuracy (%) (Calculated as Total Score / Maximum Possible Score * 100)
+Duration (Minutes) (Randomized between 10 to 60 minutes)
+Number of Questions Attempted (Randomized between 1 and 100)
+3. Data Preparation
+
+Data Cleaning and Validation:
+
+Ensured all scores fall within their respective ranges:
+Quantitative Score: 0-30
+Verbal Score: 0-30
+Logical Score: 0-40
+Total Score: 0-100
+Accuracy: 0-100%
+Duration: 10-60 minutes
+Number of Questions Attempted: 1-100
+Data Transformation:
+
+Added necessary columns such as Total Score and Accuracy.
+Used SQL and Python for data validation and transformation.
+4. SQL Operations
+
+Data Upload:
+
+Uploaded the cleaned and transformed dataset into MySQL.
+Ensured correct data import by addressing errors related to column format and types.
+Data Queries:
+
+Performed SQL queries to analyze student performance, including:
+Top Performers: Identified students with the highest total scores.
+Score Distribution: Analyzed the distribution of scores across different sections.
+Duration Analysis: Examined the correlation between test duration and scores.
+5. Data Visualization
+
+Charts Created:
+
+Bar Chart: Displayed the total scores of students for comparative analysis.
+Pie Chart: Visualized accuracy percentages to understand performance distribution.
+Tools Used:
+
+Microsoft Excel: For creating charts and visualizations.
+Python (Optional): For advanced visualization and data handling, if needed.
+6. Conclusion
+
+The project successfully utilized SQL and data visualization techniques to analyze and interpret the mock test results. The final analysis provided insights into student performance, identifying key trends and areas for improvement.
+
+7. Future Work
+
+Enhanced Analysis: Incorporate additional metrics or external data to enrich the analysis.
+Interactive Dashboards: Develop interactive dashboards for dynamic data exploration.
